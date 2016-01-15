@@ -22,7 +22,6 @@ else
   end
 end
 
-
 template '/etc/diamond/diamond.conf' do
   source 'diamond.conf.erb'
   owner node['diamond']['user']
